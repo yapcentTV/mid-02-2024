@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to top, #7bd3cc, #483ed1);
+    background-attachment: fixed;
+    display: flex;
+}
+
+.container{
+    position: absolute;
+    margin: 10px;
+    padding: 20px;
+    
+  }
+  
+.ab {
+    display: flex;
+    margin-top: 0%;
+    margin-left: 45%;
+	width: 50vw;
+	height: 90vh;
+    cursor: pointer;
+}
+   
+.alt{
+    display: flex;
+    position: fixed;
+    width: 3vw;
+	height: 8vh;
+    top: 5.5%;
+	right: 18%;
+    z-index: 1;
+  }
+
+  #alt1 {
+	background-image: url(../Img/cx.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+}
