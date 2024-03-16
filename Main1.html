@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="theme2/style.css">
+    <title>Content Page</title>
+</head>
+
+<body>
+    <div class="logo-container">
+        <h1 id="page-logo">GALLERIA</h1>
+      </div>
+
+      <div><img id="icon" src="Img/moon.png"></div>
+
+      <div class="container">
+      <div class="box">
+        <a href="Third.html"><img src="Pic/Teen/1.jpg"></a>
+        <p class="txt">①<sup>st</sup> Photo</p>
+    </div>
+    <div class="box">
+        <a href="#.html"><img src="Pic/Teen/2.jpg"></a>
+        <p class="txt">②<sup>nd</sup> Photo</p>
+    </div>
+    <div class="box">
+        <a href="#.html"><img src="Pic/Teen/3.png"></a>
+        <p class="txt">③<sup>rd</sup> Photo</p>
+    </div>
+    <div class="box">
+        <a href="#.html"><img src="Pic/Teen/4.jpg"></a>
+        <p class="txt">④<sup>th</sup> Photo</p>
+    </div>
+    <div class="box">
+        <a href="#.html"><img src="Pic/Teen/5.jpg"></a>
+        <p class="txt">⑤<sup>th</sup> Photo</p>
+    </div>
+    <div class="box">
+        <a href="#.html"><img src="Pic/Teen/6.jpg"></a>
+        <p class="txt">⑥<sup>th</sup> Photo</p>
+    </div>
+    <div><a href="Front.html"><p class="back">Return</p></div></a>
+    <div class="uncover" id="uncover1"></div>
+    </div>
+
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                 icon.src = "Img/sun.png";
+            }else{
+                 icon.src = "Img/moon.png";
+            }
+        }
+    </script>
+</body>
+</html>
