@@ -71,7 +71,7 @@ body {
 	height: 5vh;
   display: flex;
   position: absolute;
-  top: 5%;
+  top: 8.5%;
   right: 3%;
   cursor: pointer;
   z-index: 1;
@@ -149,8 +149,8 @@ img{
   text-transform: uppercase;
 	display: flex;
   position: absolute;
-  top: 3%;
-  right: 8%;
+  top: 6.5%;
+  right: 7.5%;
 	z-index: 1;
 }
 
