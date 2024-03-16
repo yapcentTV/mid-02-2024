@@ -46,8 +46,8 @@ body{
 
 .container{
     width: 100%;
-    padding: 60px;
-    margin: 100px auto;
+    padding: 50px;
+    margin: 100px 50px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
