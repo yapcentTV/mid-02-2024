@@ -156,10 +156,10 @@ img{
 
 .uncover {
 	display: flex;
-  position: fixed;
-  bottom: 40px;
-	width: 90vw;
-	height: 75vh;
+        position: fixed;
+        top: 21%;
+	width: 95vw;
+	height: 70vh;
 	border-radius: 20px;
 	opacity: 75%;
 	z-index: -1;
