@@ -20,18 +20,3 @@ body{
     cursor: pointer;
 }
    
-.alt{
-    display: flex;
-    position: fixed;
-    width: 3vw;
-	height: 8vh;
-    top: 5.5%;
-	right: 18%;
-    z-index: 1;
-  }
-
-  #alt1 {
-	background-image: url(../Img/cx.png);
-	background-size: contain;
-    background-repeat: no-repeat;
-}
